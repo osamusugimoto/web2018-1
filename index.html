@@ -4,15 +4,24 @@
 <head>
   <meta charset="UTF-8">
   <title> Web開発の練習2</title>
-  <link rel="stylesheet" href="mystyle.css"> <!-- この行を追加 -->
-<!--
-  <script src="myjs.js"></script>
--->
-  <script src="ex06-8.js"></script>
+  <link rel="stylesheet" href="bulb.css">
+
   <script src="bulb.js"></script>
 
 </head>
 
 <body>
 
+<p>JavaScript can change HTML attributes.</p>
+<p>In this case JavaScript changes the src (source) attribute of an image.</p>
+<h1>JavaScriptによる変更の練習2</h1>
+  
+    <input type="button" value="電気をつける" onclick="on();">
+
+<img id="myImage" src="./image/bulboff.gif" alt="bulb image" class="bulb">
+  
+    <input type="button" value="電気を消す" onclick="off();">
+
+</body>
+</html>
 
