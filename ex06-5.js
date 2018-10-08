@@ -6,11 +6,9 @@ function sayhello65() {
   alert('Hello, ' + who65 + '!');
 } 
 
-function taro() {
+function taro65() {
   who65 = '太郎' ;
 } 
-function hanako() {
+function hanako65() {
   who65 = '花子';
-}
-function gakita() {alert(who65 + 'が来た');
 }
