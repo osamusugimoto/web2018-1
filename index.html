@@ -3,25 +3,61 @@
 
 <head>
   <meta charset="UTF-8">
-  <title> Web開発の練習2</title>
-  <link rel="stylesheet" href="bulb.css">
-
-  <script src="bulb.js"></script>
-
+  <title>変数*引数</title>
+  <!--
+  <script src="ex06-1.js"></script>
+  <script src="goodbye.js"></script>
+  -->
+  <script src="ex06-5.js"></script>
+  
+  <script src="ex06-7.js"></script>
+<!--  
+  <script src="ex06-8.js"></script>
+-->
+  
 </head>
 
 <body>
-
-<p>JavaScript can change HTML attributes.</p>
-<p>In this case JavaScript changes the src (source) attribute of an image.</p>
-<h1>JavaScriptによる変更の練習2</h1>
   
-    <input type="button" value="電気をつける" onclick="on();">
+<!--  
+<input type="button" value="ここをクリック" onclick="sayhello();">
+<br>
+<br>
 
-<img id="myImage" src="./image/bulboff.gif" alt="bulb image" class="bulb">
+<input type="button" value="ここをクリック" onclick="sayhello();sayhello();">
+<br>
+<br>
+<input type="button" value="関数Good Byeを呼び出し" onclick="goodbye();">
+<br>
+<br>
+-->
   
-    <input type="button" value="電気を消す" onclick="off();">
+<h1>変数の練習</h1>
+    <input type="button" value="あいさつ" onclick="sayhello65();">
+    <input type="button" value="太郎" onclick="taro();gakita();">
+    <input type="button" value="花子" onclick="hanako();gakita();">
+  
+
+<h1>関数の引数</h1>
+    <input type="button" value="あいさつ" onclick="sayhello67();">
+    <input type="button" value="太郎" onclick="someone('太郎');">
+    <input type="button" value="花子" onclick="someone('花子');">
+<!--
+  <br>
+  <input type="button" value="レイ" onclick="someone('レイ');">
+  <input type="button" value="アスカ" onclick="someone('アスカ');">
+  <input type="button" value="シンジ" onclick="someone('シンジ');">
+<br>
+<h1>JavaScriptによる変更の練習</h1>
+    <input type="button" value="あいさつ" onclick="sayhello68();">
+    <input type="button" value="太郎" onclick="taro();">
+    <input type="button" value="花子" onclick="hanako();">
+    <p id="who">最初はworld</p>
+-->
+  
+  
+  
+
 
 </body>
 </html>
-
