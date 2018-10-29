@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>変数*引数</title>
+  <title>変数*引数/JavaScriptによるページの変更/タイマーによるイベント実行</title>
   <!--
   <script src="ex06-1.js"></script>
   <script src="goodbye.js"></script>
@@ -11,9 +11,11 @@
   <script src="ex06-5.js"></script>
   <script src="ex06-6.js"></script>
   <script src="ex06-7.js"></script>
-<!--  
   <script src="ex06-8.js"></script>
--->
+  <script src="ex06-9.js"></script>
+  <script src="ex06-10.js"></script>
+  <script src="ex06-11.js"></script>
+
   
 </head>
 
@@ -53,17 +55,42 @@
   <input type="button" value="アスカ" onclick="someone('アスカ');">
   <input type="button" value="シンジ" onclick="someone('シンジ');">
 <br>
-<!--
-  <h1>JavaScriptによる変更の練習</h1>
+
+  <h1>JavaScriptによる変更の練習68</h1>
     <input type="button" value="あいさつ" onclick="sayhello68();">
-    <input type="button" value="太郎" onclick="taro();">
-    <input type="button" value="花子" onclick="hanako();">
-    <p id="who">最初はworld</p>
--->
+    <input type="button" value="太郎" onclick="taro68();">
+    <input type="button" value="花子" onclick="hanako68();">
+    <p id="who68">最初はworld</p>
+<br>
   
-  
-  
+  <h1>JavaScriptによるページの変更69</h1>
+    <div id="txt1" >
+      <input type="button" value="テキストの変更" onclick="txtchange1();">城西大学</div>
+<br>
+    <div id="image1" >
+      <input type="button" value="画像の変更" onclick="imgchange1();">
+  <img src='./image/josai.png' id="logo" alt="Josai Logo"></div>
+<br>
+  <h1>タイマーイベントによる実行6-10</h1>
+<form name="timer"> 
+<input type="button" value="スタート" onclick="startfnc()">
+<br> 
+<input type="text" name="moji" size="30" value=""> 
+</form>
+<br>
+<form> 
+  <input type="button" value="Timer" onclick="setTimeout('mes()',3000)"> 
+</form>
+<br>
+  <h1>タイマーイベントによる実行6-11</h1>
+<form name="timer2"> 
+<input type="button" value="スタート" onclick="hyoji2()">
+<br> 
+<input type="text" name="moji2" size="30" value=""> 
+</form>
 
-
+  
+  
+  
 </body>
 </html>
