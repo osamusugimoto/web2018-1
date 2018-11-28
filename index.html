@@ -17,6 +17,17 @@
   <script src="ex06-11.js"></script>
   <script src="ex06-12.js"></script>
   <script src="ex06-13.js"></script>
+  <script src="ex09-2.js"></script>
+  
+  <link rel="stylesheet" href="imagechange.css">
+  
+  <script src="https://taisukef.github.io/websarasa/websarasa.js"></script>
+  <script src="mangekyo1.js"></script>
+  <script src="mangekyo2.js"></script>
+  <script src="mangekyo3.js"></script>
+  <script src="mangekyo4.js"></script>
+  <script src="mangekyo5.js"></script>
+  <script src="mangekyo6.js"></script>
   
 </head>
 
@@ -72,6 +83,7 @@
       <input type="button" value="画像の変更" onclick="imgchange1();">
   <img src='./image/josai.png' id="logo" alt="Josai Logo"></div>
 <br>
+
   <h1>タイマーイベントによる実行6-10</h1>
 <form name="timer"> 
 <input type="button" value="スタート" onclick="startfnc()">
@@ -79,6 +91,7 @@
 <input type="text" name="moji" size="30" value=""> 
 </form>
 <br>
+  
 <form> 
   <input type="button" value="Timer" onclick="setTimeout('mes()',3000)"> 
 </form>
@@ -98,10 +111,17 @@
   <div id="back">
       <input type="button" value="変更後3秒でまた戻る" 
              onclick="ChangeImageAndBack();">
-  <img src='./image/josai.png' id="img13" alt="Josai Logo">
+    
+  <img src='./image/josai.png' id="img13" alt="Josai Logo" class="imagechange">
   </div>
   <br>
   <br>
+  <h1>JavaScriptの変数とデバッガを理解09-2</h1>
+    <p>下のボタンを押すと数字が表示されます</p>
+    <p><input type="button" value="実行ボタン" onclick="addCount()"></p>
+  
+  
+  
   
 </body>
 </html>
