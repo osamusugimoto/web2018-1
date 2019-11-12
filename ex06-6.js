@@ -1,7 +1,6 @@
 var who66 = 'world';
-// var come = 'が来た'
+
 function sayhello66() {
-// var who = 'world';
   alert('Hello, ' + who66 + '!');
 } 
 
